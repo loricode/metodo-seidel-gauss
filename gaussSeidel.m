@@ -17,7 +17,7 @@ function ea = erroraproximado(xa,xp)
     ea = abs(((xa-(xp))/(xa))*100);
 end
 
-fprintf("%s\t %s\t %s\t %s\t %s\t %s\t %s\t %s\n",'i','x','y','z','|Ex|','|Ey|','|Ex|' );
+fprintf("%s\t %s\t %s\t %s\t %s\t %s\t %s\t %s\n",'i','x','y','z','|Ex|','|Ey|','|Ez|' );
 fprintf ("\n");  
 while(i < cantidadIteraciones)                 # Utilizando la formula nos queda:
     
